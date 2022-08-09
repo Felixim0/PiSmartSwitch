@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Felixim0/PiSmartSwitch#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "rpi-gpio": "^2.1.7"
   }
 }
