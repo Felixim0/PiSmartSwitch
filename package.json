@@ -1,0 +1,24 @@
+{
+  "name": "pismartswitch",
+  "version": "1.0.0",
+  "description": "Basic relay control for GPIO pins on raspberry Pi",
+  "main": "svr.js",
+  "type": "module",
+  "scripts": {
+    "start": "node . ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felixim0/PiSmartSwitch.git"
+  },
+  "author": "Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felixim0/PiSmartSwitch/issues"
+  },
+  "homepage": "https://github.com/Felixim0/PiSmartSwitch#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
