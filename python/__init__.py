@@ -28,4 +28,4 @@ def setDevice(device_id, device_status):
   setGPIO(device_id, device_status)
   return f'{device_status}, {device_id}'
 
-app.run()
+app.run(host='0.0.0.0')
