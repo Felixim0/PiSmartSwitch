@@ -12,7 +12,7 @@ GPIO.setwarnings(False)
 def setGPIO(gpio_number, status):
   nbr = int(gpio_number)
 
-  if status:
+  if str(status) == '1':
     stat = GPIO.HIGH
   else:
     stat = GPIO.LOW
